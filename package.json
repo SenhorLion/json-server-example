@@ -4,6 +4,8 @@
   "description": "json-server makes it extremely easy to setup robust JSON apis to use for demos and proof of concepts.",
   "main": "index.js",
   "scripts": {
+    "db": "json-server -w db.json",
+    "tunnel": "ngrok http 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,9 @@
   "devDependencies": {
     "faker": "^4.1.0",
     "lodash": "^4.17.11"
+  },
+  "dependencies": {
+    "json-server": "^0.15.0",
+    "ngrok": "^3.2.4"
   }
 }

@@ -11,9 +11,15 @@ NB: You will need `json-server` installed: `npm install -g json-server`
 1. Install dependencies:
    `npm install`
 
-2. Generate db data:
+1. Generate db data:
    `json-server generate.js`
 
-3. Then visit:
+1. Run json server:
+   `npm run db`
+
+1. Then visit:
    http://localhost:3000 - json-server home
    http://localhost:3000/people - list of people generated
+
+1. To use the json-server "externally" E.g: from device or another machine, you can run ngrok and use the forwarding address:
+   `npm run tunnel`
