@@ -21,7 +21,7 @@
   "homepage": "https://github.com/SenhorLion/json-server-example#readme",
   "devDependencies": {
     "faker": "^4.1.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   },
   "dependencies": {
     "json-server": "^0.15.0",
